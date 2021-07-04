@@ -2,13 +2,7 @@
 
 exports[`IndexPage renders correctly 1`] = `
 <main
-  style={
-    Object {
-      "color": "#232129",
-      "fontFamily": "-apple-system, Roboto, sans-serif, serif",
-      "padding": 96,
-    }
-  }
+  className="page"
 >
   <h1>
     Home Page
