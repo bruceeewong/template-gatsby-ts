@@ -22,19 +22,26 @@
     "gatsby-plugin-gatsby-cloud": "^2.8.1",
     "gatsby-plugin-sass": "^4.8.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "sass": "^1.35.1"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.5"
   },
   "lint-staged": {
-    "*.{js,md,json}": "npm run prettier"
+    "*.{js*,ts*,md,json}": "npm run prettier"
   }
 }
