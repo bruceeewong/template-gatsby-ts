@@ -1,16 +1,10 @@
 import * as React from 'react';
-
-// styles
-const pageStyles = {
-  color: '#232129',
-  padding: 96,
-  fontFamily: '-apple-system, Roboto, sans-serif, serif',
-};
+import './index.scss';
 
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main className="page">
       <h1>Home Page</h1>
     </main>
   );
