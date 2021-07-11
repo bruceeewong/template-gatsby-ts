@@ -1,9 +1,9 @@
 {
-  "name": "template-gatsby-ts",
+  "name": "<%= name %>",
   "version": "1.0.0",
   "private": true,
-  "description": "A template for gatsby with typescript and nice tools.",
-  "author": "Bruski",
+  "description": "",
+  "author": "<%= author %>",
   "keywords": [
     "gatsby"
   ],
